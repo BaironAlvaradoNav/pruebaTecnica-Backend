@@ -42,6 +42,26 @@ RESPUESTAS ESPERADAS
 - 404: contacto no existe
 - 409: telefono repetido
 
+PROBAR en POSTMAN
+
+insertar datos
+POST http://localhost:5207/api/contactos  (corregir puerto si es necesario)
+json: 
+{
+  "nombre": "prueba contacto",
+  "telefono": "1231231"
+}
+
+-------------------------------
+
+obtener contacto
+GET http://localhost:5207/api/contactos (corregir puerto si es necesario)
+
+-------------------------------
+
+obtener contacto por id
+GET http://localhost:5207/api/contactos/1 (corregir puerto si es necesario)
+
 
 COMO EJECUTAR TESTS
 
