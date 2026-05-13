@@ -3,11 +3,11 @@ PRUEBA TECNICA BACKEND - API DE CONTACTOS
 Este proyecto es una API simple para guardar contactos en memoria.
 No usa base de datos.
 
-QUE NECESITAS
+se necesita NECESITAS
 
 - Tener instalado .NET SDK 10.0 o superior
 
-COMO EJECUTAR (PASO A PASO)
+COMO EJECUTAR
 
 1. Abrir una terminal en la carpeta del proyecto.
 2. Ejecutar:
@@ -42,10 +42,6 @@ RESPUESTAS ESPERADAS
 - 404: contacto no existe
 - 409: telefono repetido
 
-NOTA TECNICA (SIMPLE)
-
-Para evitar problemas de concurrencia, el repositorio usa lock.
-Asi no se crean 2 contactos con el mismo telefono al mismo tiempo.
 
 COMO EJECUTAR TESTS
 
