@@ -1,0 +1,21 @@
+@PruebaBackend.Api_HostAddress = http://localhost:5207
+
+GET {{PruebaBackend.Api_HostAddress}}/api/contactos
+Accept: application/json
+
+###
+
+POST {{PruebaBackend.Api_HostAddress}}/api/contactos
+Content-Type: application/json
+
+{
+  "nombre": "Juan Perez",
+  "telefono": "123456789"
+}
+
+###
+
+GET {{PruebaBackend.Api_HostAddress}}/api/contactos/1
+Accept: application/json
+
+###
